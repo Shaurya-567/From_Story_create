@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Story</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="bg">
+    <img src="form.jpg" class="book" alt="book">
+
+  </div>
+
+
+  <div class="sec">
+
+    <h1>Complete the Form - <br>Complete the Story</h1>                    
+
+    <hr>
+ <form action="story.html">
+      <div class="main12">
+        <h2>Animal:</h2>
+        <input type="text" id="a1" class="inp ">
+      </div><br>
+
+      <div class="main12">
+        <h2>Another Animal:</h2>
+        <input type="text" id="a2" class="inp">
+      </div><br>
+
+      <div class="main12">
+        <h2>One More Animal:</h2>
+        <input type="text" class="inp" id="a6">
+      </div><br>
+
+
+      <div class="main12">
+        <h2>Adjective(past tense):</h2>
+        <input type="text" class="inp" id="a5">
+      </div><br>
+
+      <div class="main12">
+        <h2>Verb(ends in -ing):</h2> 
+        <input type="text" class="inp" id="a8">
+      </div><br>
+
+      <div class="main12">
+        <h2>Number:</h2>
+        <input type="number" class="inp" id="a9">
+      </div><br>
+
+      <div id="check">
+        <h2>Yes or No:</h2>
+        <input type="radio" name="yes" id="a3" class="rad" value="Yes">
+        <h2>Yes</h2><input type="radio" value="No" name="yes" id="a11" class="rad">
+        <h2>No</h2>
+      </div><br>
+
+      <div class="main12">
+        <h2>Relative speed (ends in -er):</h2>
+        <select class="inp" id="a4">
+          <option>Select</option>
+          <option>quicker</option>
+          <option>swimmer</option>
+          <option>runner</option>
+          <option>gymmer</option>
+        </select>
+      </div><br>
+
+      <div class="main12">
+        <h2>Motivational Quote:</h2>
+        <select class="inp" id="a4">
+          <option>Select</option>
+          <option>The pessimist sees difficulty in opportunity.</option>
+          <option>Don't let yesterday take up too much of today.</option>
+          <option>You learn more from failure than from success.</option>
+          <option>We Generate Fears While We Sit.</option>
+          <option>Security Is Mostly A Superstition.</option>
+        </select>
+      </div><br>
+
+      <div>
+        <h2>Meaningful Message:</h2>
+
+        <textarea class="sto" type="text" id="message" rows="6" placeholder="Enter the text Area"></textarea>
+      </div><br><br>
+
+
+      <button onclick="myFunction();" class="btn" id="btn12">
+        FORM MY STORY!
+      </button>
+
+    </form>
+  </div>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
